@@ -1,0 +1,21 @@
+<%- include ('../partials/header') %>
+
+<div class="container-my5">
+  <header>
+    <h1>Product Name ~ </h1> 
+    <h4><%= product.name %> </h4>
+  </header>
+    <br>
+  <hr>
+  <div class="description">
+   <h3>Product Description: </h3> 
+   <p><%- product.description %></p>
+  </div>
+  <hr>
+  <div class="price">
+    <h3>Product Price</h3>
+    <p><%- product.price %></p>
+  </div>
+</div>
+
+<%- include ('../partials/footer') %>

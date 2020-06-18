@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+.home-cta {
+  background: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-cta > h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
+  width: 400px;
+}
+.home-cta > h1 > span {
+  color: #333;
+}
+
+.container-my5{
+    color: white;
+    font-family: 'Bellota Text', cursive;
+    background-color: #52233B; 
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 40px;
+}
+
